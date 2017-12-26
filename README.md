@@ -250,7 +250,7 @@ From the documentation on AWS's website:
 
 > When your origin is an Amazon S3 bucket, CloudFront always forwards requests to S3 by using the protocol that viewers used to submit the requests. The default setting for the Origin Protocol Policy (Amazon EC2, Elastic Load Balancing, and Other Custom Origins Only) setting is Match Viewer and can't be changed.
 
-If you want to require HTTPS for communication between CloudFront and Amazon S3, you must change the value of Viewer Protocol Policy to Redirect HTTP to HTTPS or HTTPS Only. The procedure later in this section explains how to use the CloudFront console to change Viewer Protocol Policy.
+> If you want to require HTTPS for communication between CloudFront and Amazon S3, you must change the value of Viewer Protocol Policy to Redirect HTTP to HTTPS or HTTPS Only. The procedure later in this section explains how to use the CloudFront console to change Viewer Protocol Policy.
 
 
 Therefore, the setting change we made in setting up the HTTP redirect to HTTPS in the `View to CloudFront` section will also apply to setting up HTTPS requests for `CloudFront to Origin`.
