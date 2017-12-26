@@ -215,10 +215,13 @@ From the CloudFront main page, you can navigate to the `Origin Access Identity` 
 
 This section will walk you through setting up deployment for back-end repos.
 
+TODO: Update this section
 
 ### Full Rails
 
 This section will walk you through setting up deployment for a full-stack rails repos.
+
+TODO: Update this section
 
 ## Custom Domains
 
@@ -260,7 +263,7 @@ After these changes have been updated and deployed you can verify these changes 
 
 ### Custom Domain SSL
 
-// TODO: UPDATE THIS SECTION
+TODO: UPDATE THIS SECTION
 
 ### SSL FAQ
 
